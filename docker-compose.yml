@@ -1,0 +1,54 @@
+version: "3"
+services:
+  front:
+    build:
+      dockerfile: ./front/Dockerfile
+    container_name: front
+    env_file:
+      - .env
+    ports:
+      - "5173:5173"
+    depends_on:
+      - back
+    volumes:
+      - .:/mnt/front
+
+  back:
+    build:
+      dockerfile: ./back/Dockerfile
+    container_name: back
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres_db
+      - redis_server
+    volumes:
+      - .:/mnt/back
+
+  postgres_db:
+    image: 'postgres:15-alpine'
+    container_name: postgresDB
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/netufospostgresql/data
+    restart: unless-stopped
+
+  redis_server:
+    image: 'redis:alpine'
+    container_name: redisServer
+    env_file:
+      - .env
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+
+volumes:
+  postgres-data:
+  redis-data:

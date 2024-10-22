@@ -1,0 +1,56 @@
+body {
+ background-color: #c4b7a6;
+}
+input {
+    background-color: #e6e2d3;
+    border-color: rgb(175, 175, 175);
+}
+label {
+    margin-right: 10px;
+}
+#email{
+    width: 95%;
+    margin-top: 10px;
+}
+#login{
+    width: 95%;
+    margin-top: 10px;
+}
+#password{
+    width: 95%;
+    margin-top: 10px;
+}
+#confirmPassword{
+    width: 95%;
+    margin-top: 10px;
+}
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color:  #B7C1C3;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 20px;
+    
+  }
+#reg{
+    background-color: #103040;
+    padding: 20px;
+    border-radius: 15px;
+}
+#sub{
+    background-color:#8FABB7 ;
+    color: #ffffff;
+
+}
+.txt1{
+    background-color: #E3E8EB;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    padding: 5px;
+    width: 95%
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: #8FABB7;
+    color: #E3E8EB;
+    font-family: Noto Serif Oriya;
+}
+#log{
+    background-color: #103040;
+    padding: 20px;
+    border-radius: 15px;
+}
+#sub{
+    background-color:#8FABB7 ;
+    color: #ffffff;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+label{
+    color:#B7C1C3;
+}
+h2{
+    color: #E3E8EB;
+}
+.txt1{
+    background-color: #E3E8EB;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    padding: 2px;
+    width: 95%
+}
+link{
+    color: #FBFBFB;
+}
+#log1{
+    text-align: left;
+}
+h2{
+    text-align: center;
+}

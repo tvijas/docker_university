@@ -1,0 +1,45 @@
+#txtname{
+    padding: 5px;
+    color: #8a8a8a;
+    background-color: #ecede8;
+}
+#datetime{
+    padding: 1.7px;
+    color: #8a8a8a;
+    background-color: #ecede8;
+}
+#add{
+    margin-left: 5px;
+    background-color:#103040 ;
+    color: #ffffff;
+}
+#tab{
+    color: #103040;
+}
+.react-tabs__tab--selected{
+    background:#103040 ;
+    color: #ffffff;
+}
+ul{
+    border: 0px;
+    border-color: #8FABB7;
+}
+.react-tabs__tab-list{
+    border-bottom: 0px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.txt2{
+    background-color: #E3E8EB;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    padding: 10px;
+}
+.txt3{
+    background-color: #E3E8EB;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    height: 23px;
+}
