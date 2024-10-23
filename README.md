@@ -32,6 +32,7 @@ For the data storing backend uses PostgreSQL and Redis for caching. The JWT exch
    git clone https://github.com/tvijas/docker_university
    
 or just download a zip.
+
 2. Run Docker Desktop (Windows) or Docker Driver (Linux)
 3. Open `.env` file and paste your envs in such fields 
 * EMAIL=;
